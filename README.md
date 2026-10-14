@@ -25,7 +25,7 @@ validation.py: checks units and grades
 
 -Thought process:
 I divided into four different files to make the entire code neater, easier to understand and also for easy access.
-I stored each course as a dictionary with three keys which includes code, units, grade then I kept all the courses in a list and saved it to `courses.json`, sto retain the data.
+I stored each course as a dictionary with three keys which includes code, units, grade then I kept all the courses in a list and saved it to courses.json, to retain the data.
 The program starts with an empty list if the file does not exist yet instead of crashing.
 The biggest problems I faced were synthax errors
 I learned to test each file on its own before importing them to the main file.
